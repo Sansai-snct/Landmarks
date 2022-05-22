@@ -20,7 +20,10 @@ struct MapView: UIViewRepresentable {
            let region = MKCoordinateRegion(center: coordinate, span: span)
            uiView.setRegion(region, animated: true)
        }
-    var body: some View {
-        Text("Hello")
+   
+}
+struct Mapview_Preview: PreviewProvider {
+    static var previews: some View {
+        MapView()
     }
 }
