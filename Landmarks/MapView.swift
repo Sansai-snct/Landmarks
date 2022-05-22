@@ -9,7 +9,9 @@ import SwiftUI
 import MapKit
 
 struct MapView: UIViewRepresentable {
-    
+    func makeUIView(context: Context) -> MKMapView {
+            MKMapView(frame: .zero)
+        }
     var body: some View {
         Text("Hello")
     }
