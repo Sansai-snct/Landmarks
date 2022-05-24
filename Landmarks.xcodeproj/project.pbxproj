@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F007C93283D1C3600CFFCA1 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F007C92283D1C3600CFFCA1 /* Landmark.swift */; };
 		3F4075B3283A7FAC008FA24C /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4075A5283A7FAC008FA24C /* charleyrivers.jpg */; };
 		3F4075B4283A7FAC008FA24C /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4075A6283A7FAC008FA24C /* turtlerock.jpg */; };
 		3F4075B5283A7FAC008FA24C /* silversalmoncreek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4075A7283A7FAC008FA24C /* silversalmoncreek.jpg */; };
@@ -50,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F007C92283D1C3600CFFCA1 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		3F4075A5283A7FAC008FA24C /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = charleyrivers.jpg; sourceTree = "<group>"; };
 		3F4075A6283A7FAC008FA24C /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
 		3F4075A7283A7FAC008FA24C /* silversalmoncreek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silversalmoncreek.jpg; sourceTree = "<group>"; };
@@ -103,6 +105,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F007C90283D1C0200CFFCA1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3F007C92283D1C3600CFFCA1 /* Landmark.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3F4075A4283A7FAC008FA24C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +163,7 @@
 				3F4075C3283A81D2008FA24C /* MapView.swift */,
 				3F63AE91283930280044F15F /* LandmarksApp.swift */,
 				3F63AE93283930280044F15F /* ContentView.swift */,
+				3F007C90283D1C0200CFFCA1 /* Models */,
 				3F63AE95283930290044F15F /* Assets.xcassets */,
 				3F63AE97283930290044F15F /* Preview Content */,
 			);
@@ -332,6 +343,7 @@
 				3F4075C4283A81D2008FA24C /* MapView.swift in Sources */,
 				3F4075C2283A7FF8008FA24C /* CicleImage.swift in Sources */,
 				3F63AE92283930280044F15F /* LandmarksApp.swift in Sources */,
+				3F007C93283D1C3600CFFCA1 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
