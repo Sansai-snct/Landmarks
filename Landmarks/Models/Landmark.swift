@@ -12,10 +12,16 @@ struct Landmark{
     var id: Int
     var name: String
     var imageName: String
-    var coordinates: Coordinates
+    fileprivate var coordinates: Coordinates
     var state: String
     var park: String
     var category: Category
+    
+    var locationCoordinate: CLLocationCoordinate2D {
+            CLLocationCoordinate2D(
+                latitude: coordinates.latitude,
+                longitude: coordinates.longitude)
+        }
     
     enum Category: String, CaseIterable{
         case featured = "Featured"
