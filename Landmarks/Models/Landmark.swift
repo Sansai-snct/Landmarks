@@ -11,7 +11,7 @@ import SwiftUI
 struct Landmark{
     var id: Int
     var name: String
-    var imageName: String
+    fileprivate var imageName: String
     fileprivate var coordinates: Coordinates
     var state: String
     var park: String
