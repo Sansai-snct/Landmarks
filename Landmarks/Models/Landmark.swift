@@ -31,6 +31,11 @@ struct Landmark{
     }
 }
  
+extension Landmark {
+    var image: Image {
+        ImageStore.shared.image(name: imageName)
+    }
+}
 struct Coordinates {
     var latitude: Double
     var longitude: Double
